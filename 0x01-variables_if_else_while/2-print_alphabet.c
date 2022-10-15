@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
- * main - program entry point.
- * Return: 0 if no error, non zero if error.
- **/
+ * main - print alphabet in lower case
+ * Return: always 0
+ */
 int main(void)
 {
-	char i;
+	char lc;
 
-	for (i = 'a'; i <= 'z'; i++
-			{
-			putchar (i);
-			}
-			putchar('\n');
-			return (0);
-			}
+	for (lc = 'a'; lc <= 'z'; lc++)
+	{
+		putchar(lc);
+	}
+	putchar('\n');
+	return (0);
+}
