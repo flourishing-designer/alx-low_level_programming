@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - print all combination of single digits
- * Return: Always 0
+ * main - print all combinations of single digits.
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 		putchar(n);
 		if (n != 57)
 		{
-			putchar(' ,');
+			putchar(',');
 			putchar(' ');
 		}
 		putchar('\n');
