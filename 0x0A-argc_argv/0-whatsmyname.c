@@ -3,11 +3,14 @@
 /**
  * main - prints its name followed by a new line.
  * @argc: number of command line arguements.
- * @argv: array that contain the program command line arguements.
- * Return: 0 - success.
+ * @argv: array that contain the program commmand line arguements.
+ * Return: 0 if succesful.
  */
-int main(int argc _attribute_((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	int i;
+
+	for (i = 0; i < argc; i++)
+		printf("%s\n", argv[i]);
 	return (0);
 }
